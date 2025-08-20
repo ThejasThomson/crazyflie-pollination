@@ -1,0 +1,543 @@
+
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: mst
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.007 y=0.005 z=0.003 vbat=4.09 V
+[INFO] Logging flight to cf_energy_compare_mst_20250815_111450.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.01, -0.19, 0.35)
+[INFO] -> go_to(0.01, -0.39, 0.35)
+[INFO] -> go_to(-0.19, -0.39, 0.35)
+[INFO] -> go_to(-0.39, -0.39, 0.35)
+[INFO] -> go_to(-0.39, -0.19, 0.35)
+[INFO] -> go_to(-0.19, -0.19, 0.35)
+[INFO] -> go_to(0.21, -0.39, 0.35)
+[INFO] -> go_to(0.41, -0.39, 0.35)
+[INFO] -> go_to(0.21, -0.19, 0.35)
+[INFO] -> go_to(0.41, -0.19, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: mst
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.83 V
+[RESULT] Comparison saved: cf_energy_compare_mst_20250815_111450_compare_mst.csv
+[RESULT] Plots saved:      cf_energy_compare_mst_20250815_111450_compare_mst.png, cf_energy_compare_mst_20250815_111450_pcterr_mst.png
+[RESULT] RMSE=0.175 V | Mean |err|=0.110 V | Mean |%err|=3.1% | Max |%err|=19.3%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: greedy
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.012 y=0.003 z=0.003 vbat=3.96 V
+[INFO] Logging flight to cf_energy_compare_greedy_20250815_111849.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.01, -0.20, 0.35)
+[INFO] -> go_to(0.01, -0.40, 0.35)
+[INFO] -> go_to(-0.19, -0.40, 0.35)
+[INFO] -> go_to(-0.39, -0.40, 0.35)
+[INFO] -> go_to(-0.39, -0.20, 0.35)
+[INFO] -> go_to(-0.19, -0.20, 0.35)
+[INFO] -> go_to(0.21, -0.20, 0.35)
+[INFO] -> go_to(0.41, -0.20, 0.35)
+[INFO] -> go_to(0.41, -0.40, 0.35)
+[INFO] -> go_to(0.21, -0.40, 0.35)
+[INFO] -> go_to(0.01, 0.00, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: greedy
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.72 V
+[RESULT] Comparison saved: cf_energy_compare_greedy_20250815_111849_compare_greedy.csv
+[RESULT] Plots saved:      cf_energy_compare_greedy_20250815_111849_compare_greedy.png, cf_energy_compare_greedy_20250815_111849_pcterr_greedy.png
+[RESULT] RMSE=0.142 V | Mean |err|=0.099 V | Mean |%err|=2.8% | Max |%err|=16.4%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: twoopt
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.007 y=0.007 z=0.006 vbat=4.17 V
+[INFO] Logging flight to cf_energy_compare_twoopt_20250815_112229.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.19, -0.19, 0.35)
+[INFO] -> go_to(-0.39, -0.19, 0.35)
+[INFO] -> go_to(-0.39, -0.39, 0.35)
+[INFO] -> go_to(-0.19, -0.39, 0.35)
+[INFO] -> go_to(0.01, -0.39, 0.35)
+[INFO] -> go_to(0.01, -0.19, 0.35)
+[INFO] -> go_to(0.21, -0.19, 0.35)
+[INFO] -> go_to(0.41, -0.19, 0.35)
+[INFO] -> go_to(0.41, -0.39, 0.35)
+[INFO] -> go_to(0.21, -0.39, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: twoopt
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.92 V
+[RESULT] Comparison saved: cf_energy_compare_twoopt_20250815_112229_compare_twoopt.csv
+[RESULT] Plots saved:      cf_energy_compare_twoopt_20250815_112229_compare_twoopt.png, cf_energy_compare_twoopt_20250815_112229_pcterr_twoopt.png
+[RESULT] RMSE=0.229 V | Mean |err|=0.195 V | Mean |%err|=5.5% | Max |%err|=22.6%
+PS C:\Users\nikita sally>  & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: twoopt
+[INFO] Using point set: seed=101 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.007 y=0.009 z=0.006 vbat=4.16 V
+[INFO] Logging flight to cf_energy_compare_twoopt_set1_20250815_120353.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.20, 0.43, 0.35)
+[INFO] -> go_to(0.31, 0.19, 0.35)
+[INFO] -> go_to(0.29, 0.10, 0.35)
+[INFO] -> go_to(0.40, 0.08, 0.35)
+[INFO] -> go_to(0.45, -0.13, 0.35)
+[INFO] -> go_to(0.48, -0.27, 0.35)
+[INFO] -> go_to(0.38, -0.13, 0.35)
+[INFO] -> go_to(0.16, -0.14, 0.35)
+[INFO] -> go_to(-0.10, -0.14, 0.35)
+[INFO] -> go_to(-0.02, -0.46, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: twoopt
+[RESULT] Points: twoopt_set1
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.90 V
+[RESULT] Comparison saved: cf_energy_compare_twoopt_set1_20250815_120353_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_twoopt_set1_20250815_120353_compare.png, cf_energy_compare_twoopt_set1_20250815_120353_pcterr.png
+[RESULT] RMSE=0.288 V | Mean |err|=0.255 V | Mean |%err|=7.3% | Max |%err|=23.7%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: greedy
+[INFO] Using point set: seed=101 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.015 y=0.003 z=0.006 vbat=4.04 V
+[INFO] Logging flight to cf_energy_compare_greedy_set1_20250815_120611.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.10, -0.14, 0.35)
+[INFO] -> go_to(0.17, -0.15, 0.35)
+[INFO] -> go_to(0.38, -0.13, 0.35)
+[INFO] -> go_to(0.46, -0.14, 0.35)
+[INFO] -> go_to(0.49, -0.27, 0.35)
+[INFO] -> go_to(0.41, 0.08, 0.35)
+[INFO] -> go_to(0.30, 0.09, 0.35)
+[INFO] -> go_to(0.32, 0.18, 0.35)
+[INFO] -> go_to(-0.19, 0.43, 0.35)
+[INFO] -> go_to(-0.01, -0.47, 0.35)
+[INFO] -> go_to(0.01, 0.00, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: greedy
+[RESULT] Points: greedy_set1
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.79 V
+[RESULT] Comparison saved: cf_energy_compare_greedy_set1_20250815_120611_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_greedy_set1_20250815_120611_compare.png, cf_energy_compare_greedy_set1_20250815_120611_pcterr.png
+[RESULT] RMSE=0.282 V | Mean |err|=0.244 V | Mean |%err|=7.2% | Max |%err|=27.7%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: mst
+[INFO] Using point set: seed=101 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.006 y=0.000 z=0.005 vbat=3.91 V
+[INFO] Logging flight to cf_energy_compare_mst_set1_20250815_120816.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.10, -0.14, 0.35)
+[INFO] -> go_to(-0.02, -0.47, 0.35)
+[INFO] -> go_to(0.16, -0.15, 0.35)
+[INFO] -> go_to(0.38, -0.14, 0.35)
+[INFO] -> go_to(0.45, -0.14, 0.35)
+[INFO] -> go_to(0.48, -0.27, 0.35)
+[INFO] -> go_to(0.40, 0.07, 0.35)
+[INFO] -> go_to(0.29, 0.09, 0.35)
+[INFO] -> go_to(0.31, 0.18, 0.35)
+[INFO] -> go_to(-0.20, 0.42, 0.35)
+[INFO] -> go_to(0.01, 0.00, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: mst
+[RESULT] Points: mst_set1
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.71 V
+[RESULT] Comparison saved: cf_energy_compare_mst_set1_20250815_120816_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_mst_set1_20250815_120816_compare.png, cf_energy_compare_mst_set1_20250815_120816_pcterr.png
+[RESULT] RMSE=0.167 V | Mean |err|=0.101 V | Mean |%err|=3.0% | Max |%err|=22.9%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: mst
+[INFO] Using point set: seed=202 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.015 y=0.008 z=0.004 vbat=3.82 V
+[INFO] Logging flight to cf_energy_compare_mst_set2_20250815_121019.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.07, -0.01, 0.35)
+[INFO] -> go_to(0.04, -0.14, 0.35)
+[INFO] -> go_to(0.33, 0.20, 0.35)
+[INFO] -> go_to(0.44, 0.17, 0.35)
+[INFO] -> go_to(0.08, 0.35, 0.35)
+[INFO] -> go_to(-0.17, 0.29, 0.35)
+[WARN] <=3.20 V during hover. RTB.
+[INFO] Return home & land…
+[RESULT] Algorithm: mst
+[RESULT] Points: mst_set2
+[RESULT] Visited flowers (actual): 5/10
+[RESULT] Final voltage: 3.68 V
+[RESULT] Comparison saved: cf_energy_compare_mst_set2_20250815_121019_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_mst_set2_20250815_121019_compare.png, cf_energy_compare_mst_set2_20250815_121019_pcterr.png
+[RESULT] RMSE=0.119 V | Mean |err|=0.065 V | Mean |%err|=1.9% | Max |%err|=16.1%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: mst
+[INFO] Using point set: seed=202 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.018 y=0.004 z=0.009 vbat=4.16 V
+[INFO] Logging flight to cf_energy_compare_mst_set2_20250815_121245.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.08, -0.01, 0.35)
+[INFO] -> go_to(0.04, -0.15, 0.35)
+[INFO] -> go_to(0.33, 0.19, 0.35)
+[INFO] -> go_to(0.45, 0.16, 0.35)
+[INFO] -> go_to(0.08, 0.34, 0.35)
+[INFO] -> go_to(-0.17, 0.28, 0.35)
+[INFO] -> go_to(-0.27, 0.42, 0.35)
+[INFO] -> go_to(-0.14, -0.05, 0.35)
+[INFO] -> go_to(-0.18, -0.06, 0.35)
+[INFO] -> go_to(-0.33, -0.05, 0.35)
+[INFO] -> go_to(0.02, 0.00, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: mst
+[RESULT] Points: mst_set2
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.87 V
+[RESULT] Comparison saved: cf_energy_compare_mst_set2_20250815_121245_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_mst_set2_20250815_121245_compare.png, cf_energy_compare_mst_set2_20250815_121245_pcterr.png
+[RESULT] RMSE=0.207 V | Mean |err|=0.149 V | Mean |%err|=4.2% | Max |%err|=21.1%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: greedy
+[INFO] Using point set: seed=202 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.012 y=0.008 z=0.002 vbat=4.03 V
+[INFO] Logging flight to cf_energy_compare_greedy_set2_20250815_121446.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.07, -0.01, 0.35)
+[INFO] -> go_to(0.04, -0.14, 0.35)
+[INFO] -> go_to(-0.14, -0.05, 0.35)
+[INFO] -> go_to(-0.19, -0.05, 0.35)
+[INFO] -> go_to(-0.34, -0.05, 0.35)
+[INFO] -> go_to(-0.17, 0.29, 0.35)
+[INFO] -> go_to(-0.28, 0.42, 0.35)
+[INFO] -> go_to(0.08, 0.34, 0.35)
+[INFO] -> go_to(0.33, 0.19, 0.35)
+[INFO] -> go_to(0.44, 0.17, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: greedy
+[RESULT] Points: greedy_set2
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.77 V
+[RESULT] Comparison saved: cf_energy_compare_greedy_set2_20250815_121446_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_greedy_set2_20250815_121446_compare.png, cf_energy_compare_greedy_set2_20250815_121446_pcterr.png
+[RESULT] RMSE=0.191 V | Mean |err|=0.133 V | Mean |%err|=3.8% | Max |%err|=21.2%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: twoopt
+[INFO] Using point set: seed=202 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.013 y=0.007 z=0.003 vbat=3.92 V
+[INFO] Logging flight to cf_energy_compare_twoopt_set2_20250815_121651.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.07, -0.01, 0.35)
+[INFO] -> go_to(0.04, -0.14, 0.35)
+[INFO] -> go_to(-0.14, -0.05, 0.35)
+[INFO] -> go_to(-0.19, -0.05, 0.35)
+[INFO] -> go_to(-0.34, -0.05, 0.35)
+[INFO] -> go_to(-0.28, 0.42, 0.35)
+[INFO] -> go_to(-0.17, 0.29, 0.35)
+[INFO] -> go_to(0.08, 0.34, 0.35)
+[INFO] -> go_to(0.33, 0.19, 0.35)
+[INFO] -> go_to(0.44, 0.17, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: twoopt
+[RESULT] Points: twoopt_set2
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.68 V
+[RESULT] Comparison saved: cf_energy_compare_twoopt_set2_20250815_121651_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_twoopt_set2_20250815_121651_compare.png, cf_energy_compare_twoopt_set2_20250815_121651_pcterr.png
+[RESULT] RMSE=0.147 V | Mean |err|=0.088 V | Mean |%err|=2.6% | Max |%err|=18.3%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: twoopt
+[INFO] Using point set: seed=303 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.015 y=0.007 z=0.006 vbat=4.16 V
+[INFO] Logging flight to cf_energy_compare_twoopt_set3_20250815_122244.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.27, -0.08, 0.35)
+[INFO] -> go_to(-0.29, -0.19, 0.35)
+[INFO] -> go_to(-0.24, -0.23, 0.35)
+[INFO] -> go_to(-0.14, -0.28, 0.35)
+[INFO] -> go_to(0.33, -0.39, 0.35)
+[INFO] -> go_to(0.46, -0.28, 0.35)
+[INFO] -> go_to(0.32, -0.22, 0.35)
+[INFO] -> go_to(0.44, 0.06, 0.35)
+[INFO] -> go_to(0.36, 0.04, 0.35)
+[INFO] -> go_to(-0.05, 0.35, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: twoopt
+[RESULT] Points: twoopt_set3
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.85 V
+[RESULT] Comparison saved: cf_energy_compare_twoopt_set3_20250815_122244_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_twoopt_set3_20250815_122244_compare.png, cf_energy_compare_twoopt_set3_20250815_122244_pcterr.png
+[RESULT] RMSE=0.234 V | Mean |err|=0.186 V | Mean |%err|=5.3% | Max |%err|=23.5%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: greedy
+[INFO] Using point set: seed=303 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.013 y=0.002 z=0.008 vbat=4.02 V
+[INFO] Logging flight to cf_energy_compare_greedy_set3_20250815_122443.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.27, -0.08, 0.35)
+[INFO] -> go_to(-0.29, -0.20, 0.35)
+[INFO] -> go_to(-0.24, -0.23, 0.35)
+[INFO] -> go_to(-0.14, -0.29, 0.35)
+[INFO] -> go_to(0.32, -0.22, 0.35)
+[INFO] -> go_to(0.46, -0.29, 0.35)
+[INFO] -> go_to(0.33, -0.39, 0.35)
+[INFO] -> go_to(0.36, 0.04, 0.35)
+[INFO] -> go_to(0.43, 0.06, 0.35)
+[INFO] -> go_to(-0.05, 0.34, 0.35)
+[INFO] -> go_to(0.01, 0.00, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: greedy
+[RESULT] Points: greedy_set3
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.74 V
+[RESULT] Comparison saved: cf_energy_compare_greedy_set3_20250815_122443_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_greedy_set3_20250815_122443_compare.png, cf_energy_compare_greedy_set3_20250815_122443_pcterr.png
+[RESULT] RMSE=0.228 V | Mean |err|=0.177 V | Mean |%err|=5.2% | Max |%err|=22.9%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: mst
+[INFO] Using point set: seed=303 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.011 y=0.013 z=0.007 vbat=3.90 V
+[INFO] Logging flight to cf_energy_compare_mst_set3_20250815_122651.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.28, -0.07, 0.35)
+[INFO] -> go_to(-0.29, -0.18, 0.35)
+[INFO] -> go_to(-0.24, -0.22, 0.35)
+[INFO] -> go_to(-0.15, -0.28, 0.35)
+[INFO] -> go_to(-0.05, 0.35, 0.35)
+[INFO] -> go_to(0.36, 0.05, 0.35)
+[INFO] -> go_to(0.43, 0.07, 0.35)
+[INFO] -> go_to(0.32, -0.21, 0.35)
+[INFO] -> go_to(0.46, -0.28, 0.35)
+[INFO] -> go_to(0.33, -0.38, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: mst
+[RESULT] Points: mst_set3
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.64 V
+[RESULT] Comparison saved: cf_energy_compare_mst_set3_20250815_122651_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_mst_set3_20250815_122651_compare.png, cf_energy_compare_mst_set3_20250815_122651_pcterr.png
+[RESULT] RMSE=0.171 V | Mean |err|=0.078 V | Mean |%err|=2.3% | Max |%err|=21.2%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: mst
+[INFO] Using point set: seed=404 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.014 y=0.010 z=0.008 vbat=4.13 V
+[INFO] Logging flight to cf_energy_compare_mst_set4_20250815_131906.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.10, -0.07, 0.35)
+[INFO] -> go_to(-0.08, -0.11, 0.35)
+[INFO] -> go_to(-0.08, -0.31, 0.35)
+[INFO] -> go_to(-0.38, -0.37, 0.35)
+[INFO] -> go_to(-0.18, -0.04, 0.35)
+[INFO] -> go_to(-0.18, 0.07, 0.35)
+[INFO] -> go_to(-0.29, 0.41, 0.35)
+[INFO] -> go_to(-0.46, -0.02, 0.35)
+[INFO] -> go_to(-0.47, -0.05, 0.35)
+[INFO] -> go_to(0.36, 0.09, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: mst
+[RESULT] Points: mst_set4
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.87 V
+[RESULT] Comparison saved: cf_energy_compare_mst_set4_20250815_131906_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_mst_set4_20250815_131906_compare.png, cf_energy_compare_mst_set4_20250815_131906_pcterr.png
+[RESULT] RMSE=0.273 V | Mean |err|=0.237 V | Mean |%err|=6.8% | Max |%err|=24.9%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: greedy
+[INFO] Using point set: seed=404 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.013 y=0.004 z=0.003 vbat=3.99 V
+[INFO] Logging flight to cf_energy_compare_greedy_set4_20250815_132048.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(-0.10, -0.08, 0.35)
+[INFO] -> go_to(-0.08, -0.12, 0.35)
+[INFO] -> go_to(-0.18, -0.04, 0.35)
+[INFO] -> go_to(-0.18, 0.06, 0.35)
+[INFO] -> go_to(-0.46, -0.02, 0.35)
+[INFO] -> go_to(-0.47, -0.06, 0.35)
+[INFO] -> go_to(-0.38, -0.37, 0.35)
+[INFO] -> go_to(-0.08, -0.31, 0.35)
+[INFO] -> go_to(0.36, 0.08, 0.35)
+[INFO] -> go_to(-0.29, 0.40, 0.35)
+[INFO] -> go_to(0.01, 0.00, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: greedy
+[RESULT] Points: greedy_set4
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.77 V
+[RESULT] Comparison saved: cf_energy_compare_greedy_set4_20250815_132048_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_greedy_set4_20250815_132048_compare.png, cf_energy_compare_greedy_set4_20250815_132048_pcterr.png
+[RESULT] RMSE=0.231 V | Mean |err|=0.188 V | Mean |%err|=5.5% | Max |%err|=22.1%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: twoopt
+[INFO] Using point set: seed=404 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.015 y=0.012 z=0.002 vbat=3.88 V
+[INFO] Logging flight to cf_energy_compare_twoopt_set4_20250815_132228.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.36, 0.09, 0.35)
+[INFO] -> go_to(-0.18, 0.07, 0.35)
+[INFO] -> go_to(-0.18, -0.04, 0.35)
+[INFO] -> go_to(-0.10, -0.07, 0.35)
+[INFO] -> go_to(-0.08, -0.11, 0.35)
+[INFO] -> go_to(-0.07, -0.30, 0.35)
+[INFO] -> go_to(-0.38, -0.36, 0.35)
+[INFO] -> go_to(-0.47, -0.05, 0.35)
+[INFO] -> go_to(-0.46, -0.02, 0.35)
+[INFO] -> go_to(-0.29, 0.41, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: twoopt
+[RESULT] Points: twoopt_set4
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.70 V
+[RESULT] Comparison saved: cf_energy_compare_twoopt_set4_20250815_132228_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_twoopt_set4_20250815_132228_compare.png, cf_energy_compare_twoopt_set4_20250815_132228_pcterr.png
+[RESULT] RMSE=0.152 V | Mean |err|=0.078 V | Mean |%err|=2.3% | Max |%err|=20.8%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: twoopt
+[INFO] Using point set: seed=505 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.016 y=0.008 z=0.007 vbat=4.18 V
+[INFO] Logging flight to cf_energy_compare_twoopt_set5_20250815_132627.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.03, 0.16, 0.35)
+[INFO] -> go_to(-0.11, 0.32, 0.35)
+[INFO] -> go_to(-0.19, 0.35, 0.35)
+[INFO] -> go_to(-0.47, 0.51, 0.35)
+[INFO] -> go_to(-0.41, -0.16, 0.35)
+[INFO] -> go_to(0.09, -0.26, 0.35)
+[INFO] -> go_to(0.30, 0.02, 0.35)
+[INFO] -> go_to(0.32, 0.18, 0.35)
+[INFO] -> go_to(0.37, 0.21, 0.35)
+[INFO] -> go_to(0.32, 0.48, 0.35)
+[INFO] -> go_to(0.02, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: twoopt
+[RESULT] Points: twoopt_set5
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.89 V
+[RESULT] Comparison saved: cf_energy_compare_twoopt_set5_20250815_132627_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_twoopt_set5_20250815_132627_compare.png, cf_energy_compare_twoopt_set5_20250815_132627_pcterr.png
+[RESULT] RMSE=0.170 V | Mean |err|=0.100 V | Mean |%err|=2.7% | Max |%err|=18.7%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: greedy
+[INFO] Using point set: seed=505 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.016 y=0.006 z=0.011 vbat=4.05 V
+[INFO] Logging flight to cf_energy_compare_greedy_set5_20250815_132842.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.03, 0.16, 0.35)
+[INFO] -> go_to(-0.11, 0.32, 0.35)
+[INFO] -> go_to(-0.19, 0.35, 0.35)
+[INFO] -> go_to(-0.47, 0.51, 0.35)
+[INFO] -> go_to(-0.41, -0.17, 0.35)
+[INFO] -> go_to(0.09, -0.26, 0.35)
+[INFO] -> go_to(0.30, 0.02, 0.35)
+[INFO] -> go_to(0.32, 0.18, 0.35)
+[INFO] -> go_to(0.37, 0.21, 0.35)
+[INFO] -> go_to(0.32, 0.48, 0.35)
+[INFO] -> go_to(0.02, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: greedy
+[RESULT] Points: greedy_set5
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.78 V
+[RESULT] Comparison saved: cf_energy_compare_greedy_set5_20250815_132842_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_greedy_set5_20250815_132842_compare.png, cf_energy_compare_greedy_set5_20250815_132842_pcterr.png
+[RESULT] RMSE=0.180 V | Mean |err|=0.113 V | Mean |%err|=3.2% | Max |%err|=19.9%
+PS C:\Users\nikita sally> & "C:/Users/nikita sally/AppData/Local/Programs/Python/Python310/python.exe" c:/Dissertation/realtest.py
+[INFO] Training RF voltage-drop model from combined_data.csv …
+[INFO] RF model ready.
+[INFO] Using planner: mst
+[INFO] Using point set: seed=505 (10 points)
+[INFO] Connecting to radio://0/80/2M/E7E7E7E7E7
+[INFO] Waiting for estimator to settle...
+[INFO] Start: x=0.012 y=0.014 z=0.007 vbat=3.92 V
+[INFO] Logging flight to cf_energy_compare_mst_set5_20250815_133052.csv
+[INFO] PositionHL engaged (auto‑takeoff to ~0.35 m).
+[INFO] -> go_to(0.02, 0.17, 0.35)
+[INFO] -> go_to(-0.12, 0.33, 0.35)
+[INFO] -> go_to(-0.19, 0.36, 0.35)
+[INFO] -> go_to(-0.47, 0.51, 0.35)
+[INFO] -> go_to(0.09, -0.25, 0.35)
+[INFO] -> go_to(0.29, 0.02, 0.35)
+[INFO] -> go_to(0.32, 0.19, 0.35)
+[INFO] -> go_to(0.36, 0.22, 0.35)
+[INFO] -> go_to(0.31, 0.49, 0.35)
+[INFO] -> go_to(-0.41, -0.16, 0.35)
+[INFO] -> go_to(0.01, 0.01, 0.35)
+[INFO] Return home & land…
+[RESULT] Algorithm: mst
+[RESULT] Points: mst_set5
+[RESULT] Visited flowers (actual): 10/10
+[RESULT] Final voltage: 3.68 V
+[RESULT] Comparison saved: cf_energy_compare_mst_set5_20250815_133052_compare.csv
+[RESULT] Plots saved:      cf_energy_compare_mst_set5_20250815_133052_compare.png, cf_energy_compare_mst_set5_20250815_133052_pcterr.png
+[RESULT] RMSE=0.147 V | Mean |err|=0.095 V | Mean |%err|=2.8% | Max |%err|=18.2%
+PS C:\Users\nikita sally> 
