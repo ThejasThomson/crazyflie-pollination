@@ -17,7 +17,7 @@ This project develops and validates an **Energy-Aware Path Planning Framework**:
 - Classical path planners (Greedy, 2-Opt, MST-DFS) integrated with energy checks.
 - A **vision-in-the-loop demonstration** combining ArUco calibration and YOLOv8 flower detection.
 
-  
+ ``` 
 ## Repository Layout
 ├── FULL SYSTEM DEMONSTRATION/ # Vision-in-the-loop mission scripts
 │ ├── full_mission.py
