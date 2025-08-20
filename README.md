@@ -18,7 +18,7 @@ This project develops and validates an **Energy-Aware Path Planning Framework**:
 - A **vision-in-the-loop demonstration** combining ArUco calibration and YOLOv8 flower detection.
 
  ``` 
-## Repository Layout
+Repository Layout
 ├── FULL SYSTEM DEMONSTRATION/ # Vision-in-the-loop mission scripts
 │ ├── full_mission.py
 │ ├── roboflow_dataset/ # YOLO training dataset
